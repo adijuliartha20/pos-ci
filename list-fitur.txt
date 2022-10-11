@@ -1,0 +1,136 @@
+Status Transaksi
+
+1. Beli Bahan
+2. Proses Jarit
+3. Proses Payet
+4. Siap Kirim
+5. Sudah Kirim
+
+
+
+Status Paket
+
+
+
+
+
+- Update Barang ada pilihan size , motif dan warna
+- update form transaksi ada pilihan size , motif dan warna sesuai data di admin
+	LOG FAV
+	id_penjualan
+	date
+
+
+
+- Simpan penjualan dengan nilai tambahan warna, size dan motif
+- laporan favorite 
+	1.list konsumen berdasarkan size, motif dan warna berdasarkan rentang waktu
+	2.bisa kirim wa jadi marketing bisa share barang lebih tertarget
+
+
+
+
+
+- pilih konsumen#
+- tambah database bulan lalu
+- Bayar (simpan walaupun belum bayar) (tanggal bayar full , status pembayaran)#
+- view text orderan terbaru => untuk WA#
+- Laporan#
+		- laporan penjualan untuk dengan status 2 bayar full atau Null untuk yang dulu
+		- pencarian berdasarkan tanggal(tanggal pembayaran terakhir, nanti bisa diupdate setelah pembayaran sudah full)
+		- tanggal transaksi ditampilkan untuk tahu konsumen memulai pesanan tanggal berapa
+		- history pembayaran
+
+
+
+ORDER No 1.
+##Kebaya Lonceng Putih
+- Warna
+- Harga Rp.165,000
+- Jumlah 1pcs
+- Sub Total Rp.165,000
+##Kebaya Lonceng Shantili
+- Warna
+- Harga Rp.175,000
+- Jumlah 1pcs
+- Sub Total Rp.175,000
+
+Status Pesanan: Down Payment
+Data Konsumen:
+Indradi Sanjaya, 048125015802
+Jalan Nusa Indah XXI no 6,Denpasar Timur,Denpasar,Bali
+
+
+
+https://api.whatsapp.com/send?phone=6281246273068&text=ORDER%20No%201.%0A%23%23Kebaya%20Lonceng%20Putih%0A-%20Warna%0A-%20Harga%20Rp.165%2C000%0A-%20Jumlah%201pcs%0A-%20Sub%20Total%20Rp.165%2C000%0A%23%23Kebaya%20Lonceng%20Shantili%0A-%20Warna%0A-%20Harga%20Rp.175%2C000%0A-%20Jumlah%201pcs%0A-%20Sub%20Total%20Rp.175%2C000%0A%0AStatus%20Pesanan%3A%20Down%20Payment%0AData%20Konsumen%3A%0AIndradi%20Sanjaya%2C%20048125015802%0AJalan%20Nusa%20Indah%20XXI%20no%206%2CDenpasar%20Timur%2CDenpasar%2CBali
+
+
+
+
+
+
+
+
+- country #
+	- id_country
+	- name
+- province #
+	- id_province
+	- name
+	- id_country
+- districts#
+	- id_district
+	- name
+	- id_province
+	- id_country
+- sub_district (masih macet get kabupaten)
+	- id_sub_district
+	- name
+	- id_district
+	- id_province
+	- id_country
+
+- Member
+	- id_consumen
+	- name
+	- phone
+	- email
+	- address
+	- id_sub_district	
+	- gender
+	- birth_day
+	- consumen_type
+	- know_us_from
+
+- Penjualan tambah status penjualan
+	- tambah id member - form pesanan n penjualan tambah
+	- status bayar (belum/sudah)
+	- type order [PO/belanja langsung]
+	- tanggal pesanan, tanggal deadline dan tanggal pembayaran
+	- tanggal pembayaran dipakai untuk hitung penjualan bulanan
+	- buat laporan penjualan memakai tanggal agar bisa buat laporan disaat sepi penjualan karena awal dan akhir bulan kita sibuk jualan
+
+- Dashboard
+	- info member yang lagi ulang tahun - copy chat
+	- info PO yang harus dikirim
+
+- Maintenance catatan	
+- list pengiriman perhari
+
+1 April 2022
+
+1. Seragaman Kebaya S-XL
+- Bahan Katun Fur
+- Model leher naik
+- Bet menyatu
+- Model tangan panjang lurus
+- Size: S (2), M (3), L(1), XL(2)
+- Harga 150K
+- Jumlah 8pcs
+
+DATA:
+LUNAS
+Bu Jero Sukerti
+0 813-5306-5580
+Gianyar, Bali 
+Ambil Ke toko

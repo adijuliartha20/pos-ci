@@ -1,0 +1,14 @@
+
+login domainesia:
+me@winaya.com
+psswd:1sampai9winayA
+
+
+1sampai9locografis
+
+1. Buat Database Konsumen
+    - tambah tanya
+    - tambah belanja
+
+    - laporan tanya
+    - laporan belanja
